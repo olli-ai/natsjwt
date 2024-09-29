@@ -163,6 +163,13 @@ class NJWT:
                     "wildcards": True,
                     "conn": -1,
                     "leaf": -1,
+                    "mem_storage": -1,
+                    "disk_storage": -1,
+                    "streams": -1,
+                    "consumer": -1,
+                    "max_ack_pending": -1,
+                    "mem_max_stream_bytes": -1,
+                    "disk_max_stream_bytes": -1
                 },
                 "revocations": self.revocations,
                 "default_permissions": {"pub": {}, "sub": {}},
